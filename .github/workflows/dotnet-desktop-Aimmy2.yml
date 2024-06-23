@@ -38,6 +38,7 @@
 
 name: Aimmy2 Build
 on:
+  workflow_dispatch:
   push:
     branches: [ "Aimmy-V2" ]
   pull_request:
